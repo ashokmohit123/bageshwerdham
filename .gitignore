@@ -1,0 +1,21 @@
+# dependencies
+**/node_modules/
+
+# local env files
+**/.env
+**/.env.*
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+
+# build outputs
+frontend/build/
+adminpanel/build/
+adminpanel/admin_build/
+
+# misc
+.DS_Store
+Thumbs.db
