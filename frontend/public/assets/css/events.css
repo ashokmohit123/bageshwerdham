@@ -1,0 +1,392 @@
+.event-section {
+  padding: 60px 20px;
+}
+
+.event-title {
+    text-align: center;
+    margin-bottom: 28px;
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-top: 87px;
+    color: #0056b3 ;
+}
+
+.swiper {
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.swiper-slide {
+  width: 340px;
+}
+
+.timeline-card {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+  /* padding: 20px; */
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.timeline-card::after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 25px solid white;
+    z-index: 2;
+}
+.container-fluid.event-section {
+    background: #efeeee;
+}
+.timeline-dot {
+  width: 70px;
+  height: 70px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 30px auto 10px auto;
+  position: relative;
+  z-index: 2;
+}
+
+.timeline-line {
+  height: 2px;
+  background-color: #999;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.timeline-date {
+  text-align: center;
+  /* font-weight: bold; */
+  font-size: 1.1rem;
+}
+
+.event-link {
+  color: #8bbf56;
+  text-decoration: none;
+}
+
+.event-link:hover {
+  text-decoration: underline;
+}
+
+.event-image {
+  width: 100%;
+  /* height: 180px; */
+  object-fit: cover;
+  border-radius: 6px 6px 0 0;
+  margin-bottom: 15px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #000;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  top: auto;
+  bottom: 10px;
+}
+
+.swiper-button-next {
+  right: 20px;
+}
+
+.swiper-button-prev {
+  left: 20px;
+}
+
+@media (max-width: 768px) {
+  .swiper-slide {
+    width: 90%;
+  }
+}
+.event-content-info {
+    text-align: left;
+    padding-left: 21px;
+    font-size: 16px;
+}
+.timeline-dot img {
+    width: 62px;
+    height: 58px;
+}
+
+.temple-container {
+  text-align: center;
+  /* margin-top: 20px; */
+  position: relative;
+}
+.temple-container img.deity {
+  width: 100%;
+  height: 650px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.virtual-real-bg-pooja {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.virtual-real-bg-pooja img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: contain; */
+}
+.pooja-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.pooja-content div {
+  position: absolute;
+  display: none;
+}
+div#first img {
+    max-width: 711px;
+    height: 250px;
+    width: 100%;
+}
+#first { top: 50%; left: 30%; }
+#second { top: 30%; left: 50%; transform: translateX(-50%); }
+#third { top: 54%; right: 34%; }
+#forth { bottom: 10%; left: 20%; }
+#five { bottom: -5%; right: -3%; }
+
+.pooja-btn-info {
+  margin-top: 20px;
+  text-align: center;
+}
+.pooja-btn-info button {
+  border: none;
+  background: none;
+}
+.pooja-btn-info img {
+  width: 60px;
+  height: auto;
+  transition: transform 0.2s;
+}
+.pooja-btn-info img:hover {
+  transform: scale(1.2);
+}
+.col-auto.bottom-pooja-btn {
+    max-width: 200px;
+    width: 100%;
+}
+img.arti-img {
+    width: 89px;
+}
+img.laddu-img {
+    width: 94px;
+    height: 81px;
+}
+img.flower-img {
+    width: 90px;
+}
+
+.service-commitment-section .card-custom {
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-commitment-section .card-custom img {
+  border-radius: 10px 10px 0 0;
+  max-height: 300px;
+}
+
+.service-commitment-section .card-text {
+  color: #555;
+}
+
+.service-commitment-section .heading {
+  color: #060606;  /* Color similar to the text 'हमारी पहल' */
+  /* font-weight: bold; */
+  font-size: 41px;
+}
+
+.divya-mission-section h5 {
+    font-size: 28px !important;
+     color: #0056b3;
+}
+.divya-mission-section hr.w-25.mx-auto {
+    height: 5px;
+    background: #0056b3;
+}
+.pooja-copy h3 {
+    color: #0056b3;
+    font-weight: 500;
+}
+section.service-commitment-section p {
+    font-size: 18px;
+}
+.service-commitment-icon {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    background: #fff;
+    border-radius: 7px;
+    padding: 0px;
+    font-size: 30px;
+}
+.card-custom {
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-custom:hover {
+ box-shadow: 0 12px 24px rgba(10, 115, 214, 0.6); /* Blue glow */
+  transform: translateY(-8px);
+}
+
+.card-custom img {
+  border-radius: 10px 10px 0 0;
+  transition: transform 0.5s ease;
+}
+
+.card-custom:hover img {
+  transform: scale(1.05);
+}
+
+/* Optional: Add a subtle overlay on hover */
+.card-custom:hover::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+ background: rgb(10 115 214 / 16%);
+  border-radius: 10px;
+  pointer-events: none;
+}
+.divya-mission-section p {
+    text-align: left;
+    font-size: 19px;
+}
+.divya-mission-section ul.list-unstyled {
+    text-align: left;
+    font-size: 17px;
+    line-height: 37px;
+}
+.divya-mission-section .btn.btn-success.rounded-pill {
+    background-color: #2a71eb;
+    border-color: #2a71eb;
+    font-size: 18px;
+}
+.divya-mission-section small.text-muted {
+    font-size: 16px;
+}
+.divyamission-description {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 20px; /* Add some padding inside the div */
+    border-left: 5px solid #007bff; /* Blue left border */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    border-top-left-radius: 20px;
+}
+
+.divyamission-description:hover {
+    background-color: #e2e6ea; /* Slightly darker background on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border-left-color: #28a745; /* Change border color on hover to green */
+}
+/* Card Shadow and Hover Effects */
+.divya-mission-section .card {
+    background-color: #ffffff; /* White background */
+   box-shadow: 0 4px 8px rgb(7 121 205 / 55%) !important;
+    transition: all 0.3s ease; /* Smooth transition for shadow and scale effect */
+}
+
+.divya-mission-section .card:hover {
+    box-shadow: 0 8px 16px rgb(7 121 205 / 55%) !important;
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+}
+
+/* Optionally, add some padding and border radius for smoother corners */
+.divya-mission-section .card-body {
+    padding: 20px;
+}
+
+.divya-mission-section .card-footer {
+    padding: 15px;
+}
+.religion-symbol {
+    width: 50px;
+    height: 50px;
+    background: #2a71eb;
+    border-radius: 27px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    top: -34px;
+    left: -33px;
+}
+
+.achievements-section .section-header 
+{ text-align: center; margin-bottom: 40px; font-size: 18px; color: #38393a; } 
+.achievements-section .section-title {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #2a71eb;
+}
+.achievements-section .stat-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 1px solid hsl(204.47deg 100% 50% / 47.84%);
+} 
+  .achievements-section .stat-card:hover { transform: translateY(-10px); box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); } 
+  .achievements-section .stat-card .stat-number {
+    font-weight: 600;
+    color: #2a71eb;
+    font-size: 2rem;
+    line-height: 4.5rem;
+}
+  .achievements-section .stat-card .stat-text {
+    font-size: 1.4rem;
+    color: #2a71eb;
+    font-weight: 600;
+} 
+   .achievements-section .stat-card .stat-description { font-size: 18px; color: #38393a; margin-top: 10px; }
+
+   section.service-commitment-section .support-btn {
+    margin-top: 20px;
+    padding: 7px 15px;
+    background: linear-gradient(90deg, #2a71eb, #1d4e8c);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    max-width: 150px;
+    margin: 0 auto;
+    margin-bottom: 17px;
+}
+  section.service-commitment-section .support-btn:hover {
+    background: linear-gradient(90deg, #1d4e8c, #2a71eb);
+    transform: scale(1.05);
+}

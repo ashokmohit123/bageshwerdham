@@ -1,0 +1,590 @@
+
+.kanya-vivah-video-slider {
+    margin-top: 61px;
+}
+
+.kanya-vivah-purpose .info-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin-top: 20px;
+}
+
+.kanya-vivah-purpose .section-title {
+  color: #2a71eb;
+  font-size: 30px;
+  /* font-weight: 700; */
+}
+
+.kanya-vivah-purpose .sub-heading {
+  font-weight: 600;
+}
+
+.kanya-vivah-purpose .highlight-box {
+  background: #fff;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.06);
+}
+
+.kanya-vivah-purpose .highlight-box h6 {
+  font-weight: 700;
+}
+
+.kanya-vivah-purpose .icon-text {
+  font-size: 1.2rem;
+  margin-right: 5px;
+}
+.kanya-vivah-video-slider .carousel-item {
+  height: 800px;
+}
+
+.kanya-vivah-video-slider .carousel-item img,
+.kanya-vivah-video-slider .carousel-item video {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+.kanya-vivah-video-slider iframe {
+  border-radius: 10px;
+}
+
+.kanya-vivah-video-slider .carousel-item {
+  transition: transform 0.6s ease-in-out;
+}
+.kanya-vivah-purpose .info-card p {
+    font-size: 18px;
+}
+section.kanya-vivah-purpose {
+    background: #fff7ed;
+}
+section.kanya-vivah-purpose p {
+   font-size: 18px;
+    line-height: 37px;
+}
+
+
+.kanya-vivah-section-info  .timeline-container {
+  padding: 40px 20px;
+  /* background: #fde2e4; */
+  font-family: "Arial", sans-serif;
+}
+
+.kanya-vivah-section-info  .timeline-title {
+  text-align: center;
+  font-size:41px;
+  /* font-weight: bold; */
+  color: #2a71eb;
+  margin-bottom: 40px;
+}
+
+.kanya-vivah-section-info  .timeline {
+  position: relative;
+  /* max-width: 1000px; */
+  margin: auto;
+}
+
+.kanya-vivah-section-info  .timeline::after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  background-color: #2a71eb;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -2px;
+}
+
+.kanya-vivah-section-info  .timeline-item {
+  padding: 20px 30px;
+  position: relative;
+  width: 50%;
+}
+
+.kanya-vivah-section-info  .timeline-item::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: -10px;
+  background-color: #fff;
+  border: 4px solid #2a71eb;
+  top: 30px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.kanya-vivah-section-info  .left {
+  left: 0;
+}
+
+.kanya-vivah-section-info  .right {
+  left: 50%;
+}
+
+.kanya-vivah-section-info  .right::after {
+  left: -10px;
+}
+
+.kanya-vivah-section-info  .timeline-content {
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.kanya-vivah-section-info  .timeline-content .year {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2a71eb;
+  margin-bottom: 10px;
+}
+
+.kanya-vivah-section-info  .timeline-content .timeline-img {
+  width: 100%;
+  height: 357px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.kanya-vivah-section-info  .timeline-content .title {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.kanya-vivah-section-info .timeline-content .desc {
+    margin-left: 20px;
+    color: #555;
+    font-size: 18px;
+    list-style: none;
+    line-height: 39px;
+}
+
+@media screen and (max-width: 768px) {
+ .kanya-vivah-section-info  .timeline::after {
+    left: 20px;
+  }
+
+ .kanya-vivah-section-info  .timeline-item {
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 25px;
+  }
+
+  .kanya-vivah-section-info  .timeline-item::after {
+    left: 10px;
+  }
+
+  .kanya-vivah-section-info  .right {
+    left: 0%;
+  }
+}
+section.kanya-vivah-section-info {
+    background: #f5f5f5;
+}
+
+.kanya-vivah-sahyog .support-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: #fdeef2; */
+  padding: 40px;
+}
+section.kanya-vivah-sahyog {
+    background: #f5f5f5;
+}
+.kanya-vivah-sahyog .support-card {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  max-width: 800px;
+  text-align: center;
+}
+
+.kanya-vivah-sahyog .support-title {
+  color: #2a71eb;
+  font-size: 35px;
+  margin-bottom: 15px;
+  /* font-weight: bold; */
+}
+.kanya-vivah-sahyog .support-title span{
+  font-size: 26px;
+}
+.kanya-vivah-sahyog .support-text {
+  color: #333;
+  font-size: 18px;
+  margin: 10px 0;
+  line-height: 1.6;
+  font-weight: normal;
+}
+
+.kanya-vivah-sahyog, section.cancer-hospital-sahayog .support-btn {
+  margin-top: 20px;
+  padding: 12px 30px;
+  background: linear-gradient(90deg, #2a71eb, #1d4e8c);
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+.kanya-vivah-sahyog .support-btn {
+  margin-top: 20px;
+  padding: 12px 30px;
+  background: linear-gradient(90deg, #2a71eb, #1d4e8c);
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.kanya-vivah-sahyog, section.cancer-hospital-sahayog  .support-btn:hover {
+  background: linear-gradient(90deg, #1d4e8c, #2a71eb);
+  /* transform: scale(1.05); */
+}
+.kanya-vivah-sahyog .support-btn:hover {
+  background: linear-gradient(90deg, #1d4e8c, #2a71eb);
+  /* transform: scale(1.05); */
+}
+
+.cancer-hospital-bhumi-poojan .section {
+  padding: 40px 15px;
+}
+section.cancer-hospital-video-slider .carousel-item {
+    max-height: 800px;
+}
+.cancer-hospital-bhumi-poojan .instagram-box {
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  height: 100%;
+}
+
+.cancer-hospital-bhumi-poojan .youtube-thumb iframe {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.cancer-hospital-bhumi-poojan .features ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.cancer-hospital-bhumi-poojan .features ul li::before {
+  content: '👉';
+  margin-right: 8px;
+}
+section.cancer-hospital-bhumi-poojan p {
+    font-size: 18px;
+}
+section.cancer-hospital-bhumi-poojan ul li {
+    font-size: 18px;
+    line-height: 42px;
+}
+
+
+
+.cancer-hospital-sahayog .card-container {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.cancer-hospital-sahayog .section-title {
+    color: #2a71eb;
+    /* font-weight: 700; */
+}
+
+.cancer-hospital-sahayog .icon {
+    font-size: 24px;
+}
+
+.cancer-hospital-sahayog .highlight-card {
+  background-color: rgb(225 243 234 / 39%);
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    height: 100%;
+    font-size: 18px;
+}
+
+section.cancer-hospital-sahayog p {
+    font-size: 18px;
+}
+
+.cancer-hospital-sahayog .footer-note {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #555;
+}
+
+
+.cow-protection .section-title {
+  color: #2a71eb;
+  /* font-weight: bold; */
+  font-size: 25px;
+}
+
+.cow-protection .content-box {
+  background-color: #f1fff7;
+  padding: 25px;
+  border-radius: 15px;
+  border-left: 5px solid #e9c240;
+}
+
+.cow-protection .alert-box {
+  background-color: #fff7f0;
+  border-left: 5px solid #f23d9a;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.cow-protection .note-box {
+  background-color: #fff;
+  border: 1px solid #c486b9;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cow-protection .note-box .tick {
+  color: #2a71eb;
+  font-weight: 600;
+}
+
+.cow-protection .note-box .cross {
+  color: red;
+  font-weight: 600;
+}
+
+.cow-protection .cta-box {
+  background-color: #e8fff4;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+  border-left: 5px solid #2196f3;
+}
+
+.cow-protection .cta-box strong {
+  color: #d32f2f;
+}
+
+.cow-protection .image-grid img {
+  border-radius: 12px;
+  object-fit: cover;
+  width: 100%;
+  max-height: 331px;
+}
+
+@media (max-width: 768px) {
+ .cow-protection .image-grid img {
+    height: 200px;
+  }
+}
+section.cow-protection.mt-5 {
+    margin-top: 100px !important;
+}
+.cow-protection-content {
+    background: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+section.cow-protection p {
+    font-size: 18px;
+}
+section.cow-info-thumbnail .wrapper2 {
+    padding-top: 10px;
+}
+
+.cow-info-thumbnail img {
+  transition: transform 0.3s ease-in-out;
+  cursor: zoom-in;
+  border-radius: 10px;
+}
+.cow-info-thumbnail img:hover {
+  transform: scale(1.1);
+  z-index: 2;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+.gou-sahayog-section .gau-card {
+  max-width: 800px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 20px;
+  padding: 40px 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid #c8e6c9;
+}
+
+.gou-sahayog-section .gau-card h2 {
+  font-weight: bold;
+  color: #4a3d00;
+}
+
+.gou-sahayog-section .gau-card h2 span {
+  color: #2a71eb;
+    font-size: 33px;
+    font-weight: 500;
+}
+
+.gou-sahayog-section .gau-card p {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.gou-sahayog-section .gau-card .quote {
+  color: #2a71eb;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.gou-sahayog-section .gau-card .highlight {
+  color: #2a71eb;
+  font-weight: 600;
+  background-color: #f1f8e9;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.gou-sahayog-section .btn-gau {
+  background: linear-gradient(to right, #386fcd, #2a71eb);
+    color: #fff;
+    border: none;
+    padding: 4px 20px;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+    font-size: 26px;
+}
+
+.gou-sahayog-section .btn-gau:hover {
+  background: linear-gradient(to right, #386fcd, #2a71eb);
+  color: #fff;
+}
+img.vedigurukul-img {
+    height: 100%;
+}
+
+.anna-rasoi-arpan .header-box {
+    background-color: #ffffff;
+    border-left: 6px solid orange;
+    border-top: 6px solid orange;
+}
+
+.anna-rasoi-arpan img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    max-height: 400px !important;
+}
+section.anna-rasoi-arpan p {
+    font-size: 18px !important;
+}
+.shraddhalu-seva .content-box {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.shraddhalu-seva .youtube-video iframe {
+  width: 100%;
+  height: 390px;
+  border-radius: 12px;
+}
+
+.shraddhalu-seva .gallery-img {
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  height: 100%;
+    max-height: 600px;
+    width: 100%;
+}
+section.shraddhalu-seva p {
+    font-size: 18px;
+    line-height: 37px;
+    
+}
+.donation-box h3 {
+    color: #2a71eb;
+    font-size: 31px;
+   
+}
+.annapurna-kitchen-support .donation-box {
+  background-color: #fff;
+  border: 1px solid #99bbf5;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  max-width: 1000px;
+    margin: 0 auto;
+}
+
+.annapurna-kitchen-support .highlight-box {
+  background-color: rgb(162 174 223 / 13%);
+  border-radius: 10px;
+  padding: 15px;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.annapurna-kitchen-support .info-card {
+  background-color: #fff9f5;
+  border: 1px solid #f8e5dd;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  height: 100%;
+  font-size: 18px;
+}
+
+.annapurna-kitchen-support .donate-btn {
+    background-color: #2a71eb;
+    color: #fff;
+    border: none;
+    padding: 8px 25px;
+    font-size: 22px;
+    border-radius: 30px;
+    transition: 0.3s;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.annapurna-kitchen-support .donate-btn:hover {
+  background-color: #2a71eb;
+}
+.donation-box p {
+    font-size: 18px;
+}
+.annapurna-kitchen-support .quote {
+  font-style: italic;
+  color: #2a71eb;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.annapurna-kitchen-support .sub-quote {
+  font-size: 14px;
+  color: #6c757d;
+}

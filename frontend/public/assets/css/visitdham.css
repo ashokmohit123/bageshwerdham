@@ -1,0 +1,138 @@
+
+.bageshwar-dham-visit-banner {
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+.bageshwar-dham-travel .container-custom {
+  /* background-color: #f8f9fa; */
+  padding: 20px;
+  border-radius: 10px;
+}
+.bageshwar-dham-travel .heading-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2196f3;
+}
+.bageshwar-dham-travel .content-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+/* .bageshwar-dham-travel .image-box {
+  width: 43%;
+  height: auto;
+}
+.bageshwar-dham-travel .text-box {
+  width: 55%;
+} */
+.bageshwar-dham-travel .list-group-item {
+    font-size: 18px;
+    border: none;
+}
+.bageshwar-dham-travel .custom-image {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    max-height: 422px;
+    margin-top: 18px;
+    border-radius: 10px;
+}
+.bageshwar-dham-travel .cta-box {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border-left: 5px solid #2196f3;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+section.bageshwar-dham-travel {
+   background-color: rgb(233, 247, 239);
+}
+section.bageshwar-dham-travel i{
+    margin-right: 5px;
+    color: #2196f3;
+}
+ section.bageshwar-dham-travel i.fa.fa-arrow-right {
+    color: #2a2a2a;
+    font-size: 14px;
+} 
+.bageshwar-dham-travel .list-group-item p {
+    padding-left: 42px;
+}
+.google-map.mt-5 {
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px 15px;
+}
+
+
+/* TrainRoute.css */
+
+
+.bageshwar-dham-train-route .card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+section.bageshwar-dham-train-route {
+    background: #f9f3e4;
+}
+
+.bageshwar-dham-train-route .image-card {
+  position: relative;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.bageshwar-dham-train-route .image-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.bageshwar-dham-train-route .info-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-height: 572px;
+    height: 100%;
+}
+
+.bageshwar-dham-train-route .info-card h5 {
+  color: #004085;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.bageshwar-dham-train-route .info-card p {
+  color: #333;
+  font-size: 18px;
+}
+
+.bageshwar-dham-train-route .details-card {
+  background-color: #f1f1f1;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.bageshwar-dham-train-route .details-card h6 {
+  font-size: 1.2rem;
+  /* font-weight: bold; */
+  margin-bottom: 20px;
+}
+
+.bageshwar-dham-train-route .details-card ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.bageshwar-dham-train-route .details-card ul li {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+section.bageshwar-dham-train-route img {
+    max-height: 522px;
+    height:520px;
+}
